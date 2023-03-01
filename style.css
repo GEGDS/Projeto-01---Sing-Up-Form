@@ -1,0 +1,146 @@
+:root {
+    --bg-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Logo Image */
+
+.logo{
+    display: flex;
+    justify-content: center;
+    width:100vw;
+  }
+
+.side {
+    position: relative;
+    width: 60vw;
+    min-width: 345px;
+    height: 100vh;
+    background: url(./Images/siamak-QYvpHmW2eos-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .side div {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .side img {
+    width: 5rem;
+    padding: 10px;
+  }
+  
+  .side p {
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.575);
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+}
+    
+/* form */
+  
+main {
+    height: 100%;
+    max-width: 65%;
+    background-color:  var(--bg-color);
+    min-width: 700px;
+}
+
+.txt {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 33%;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 90%;
+}
+
+form {
+    height: 80%;
+}
+
+
+.form-container {
+    background-color:  var(--bg-color);
+    padding: 2rem 2rem;
+    box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, .5);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.form-container p {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.form-cell {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 33%;
+}
+
+.form-cell label {
+    font-size: 0.7rem;
+    font-weight: 800;
+    color: #596D48;
+}
+
+form input {
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.button-area {
+    padding-left: 2rem;
+}
+
+.button-area a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+button {
+    background-color: #596D48;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
